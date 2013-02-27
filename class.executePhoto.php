@@ -5,7 +5,6 @@
 	 * @category   Utilities
 	 * @package    dave.utilities
 	 * @author     David Martín <mcdave91@gmail.com>
-	 * @copyright  2012 Tutatix Gestion Online S.L.
 	 * @license    http://www.opensource.org/licenses/mit-license.php  MIT License
 	 * @version    1.0.0
 	 * @link       https://twitter.com/davemtc
