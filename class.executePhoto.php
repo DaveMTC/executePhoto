@@ -19,9 +19,9 @@
 
 		public static function save_client(){
 			$objDB = @new mysqli(self::$_db_server,
-							     self::$_db_user,
-								 self::$_db_passowrd,
-								 self::$_db_select);
+					     self::$_db_user,
+					     self::$_db_passowrd,
+					     self::$_db_select);
 
 			if($objDB->connect_error) return false;
 
@@ -66,10 +66,10 @@
 			$ext = strtolower(substr(strrchr($image, '.'), 1));
 
 		    switch($ext){
-				case "jpg":  $img = imagecreatefromjpeg($image); break;
-				case "jpeg": $img = imagecreatefromjpeg($image); break;
+			case "jpg":  $img = imagecreatefromjpeg($image); break;
+			case "jpeg": $img = imagecreatefromjpeg($image); break;
 		        case "gif":  $img = imagecreatefromgif($image);  break;
-				case "png":  $img = imagecreatefrompng($image);  break;
+			case "png":  $img = imagecreatefrompng($image);  break;
 		    }
 
 			$file = imagecreatefromjpeg($image);
